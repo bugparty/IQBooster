@@ -1,0 +1,61 @@
+﻿<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.ifancc.braingame.IntroScrollLayout
+        android:id="@+id/scrollLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout    
+            android:background="@drawable/game_help1"
+		  	android:layout_width="fill_parent"    
+		  	android:layout_height="fill_parent">
+	  	</FrameLayout>  
+	  	<FrameLayout    
+		  	android:background="@drawable/game_help2"    
+		  	android:layout_width="fill_parent"    
+		  	android:layout_height="fill_parent">
+	  	</FrameLayout>  
+	  	<FrameLayout    
+		  	android:background="@drawable/game_help3"    
+		  	android:layout_width="fill_parent"    
+		  	android:layout_height="fill_parent">
+	  	</FrameLayout>  
+	  	<FrameLayout    
+		  	android:background="@drawable/game_help4"    
+		  	android:layout_width="fill_parent"    
+		  	android:layout_height="fill_parent">
+	  	</FrameLayout>  
+    </com.ifancc.braingame.IntroScrollLayout>
+    <LinearLayout android:id="@+id/lLayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dip">
+        <ImageView android:clickable="true"  
+        	android:padding="15.0dip" 
+        	android:layout_gravity="center_vertical" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/intro_round"/>
+        <ImageView android:clickable="true"  
+        	android:padding="15.0dip" 
+        	android:layout_gravity="center_vertical" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/intro_round"/>
+        <ImageView android:clickable="true"  
+        	android:padding="15.0dip" 
+        	android:layout_gravity="center_vertical" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/intro_round"/>
+        <ImageView android:clickable="true"  
+        	android:padding="15.0dip" 
+        	android:layout_gravity="center_vertical" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/intro_round"/>
+    </LinearLayout>
+</RelativeLayout>

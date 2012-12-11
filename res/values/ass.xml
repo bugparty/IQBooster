@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<dimen name="little_space">10dip</dimen>
+	<dimen name="big_space">20dip</dimen>
+	<dimen name="title_size">22dip</dimen>
+	<dimen name="big_size">14dip</dimen>
+	<dimen name="little_size">12dip</dimen>
+    
+    <dimen name="register_side">10dip</dimen>
+    <dimen name="more_side">10dip</dimen>
+    <dimen name="edit_data">12sp</dimen>
+    <dimen name="more_tv_size">18sp</dimen>
+    <dimen name="more_tv_size2">22sp</dimen>
+ 	<color name="register_tv_color">#787878</color>
+ 	<color name="black">#000000</color>
+ 	<color name="table_text_color">#666666</color>
+ 	<color name="iamge_bg">#8B2323</color>
+ 	<dimen name="register_side_big">20dip</dimen>
+ 	<dimen name="register_side_text">4dip</dimen>
+ 	<dimen name="register_side_item">48dip</dimen>
+ 	<color name="table_color">#99C0C0C0</color>
+ 	<color name="item_color">#00FBFBFB</color>
+ 	<color name="text_type01">#88333333</color>
+ 	<color name="text_type02">#88666666</color>
+ 	<color name="table_color2">#66C0C0C0</color>
+ 	
+ 	<color name="green">#33CC00</color>  
+    <color name="red">#DF0504</color>  
+</resources>

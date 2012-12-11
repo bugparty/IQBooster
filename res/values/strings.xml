@@ -1,0 +1,39 @@
+﻿<resources>
+    <string name="app_name">IQ Booster</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_register">注册</string>
+    <string name="register_label">注册</string>
+    <string name="username_label">账户:</string>
+    <string name="please_input_username">请输入用户名</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="please_input_mailbox">请输入您的邮箱</string>
+    <string name="title_activity_login">IQ Booster</string>
+    <string name="register_error_mention1">用户名不能为空</string>
+    <string name="register_error_mention2">密码不能为空</string>
+    <string name="register_error_mention3">邮箱不能为空</string>
+    <string name="register_error_mention4">性别不能为空</string>
+    <string name="register_error_mention5">所输入的邮箱格式不正确</string>
+    <string name="login_label">登录</string>
+    <string name="loginBtn">登录</string>
+    <string name="title_activity_menu_page">MenuPage</string>
+    <string name="title_activity_game_list">GameList</string>
+    <string name="title_activity_analyse">Analyse</string>
+    <string name="sex_label">性别：</string>
+    <string name="sex_male">男</string>
+    <string name="sex_female">女</string>
+    <string name="menu_dataAnalyse">数据分析</string>
+    <string name="menu_startTrain">开始训练</string>
+    <string name="menu_allGame">全部游戏</string>
+    <string name="title_activity_start_train">StartTrain</string>
+    <string name="title_activity_train">Train</string>
+    <string name="game_list_speed">speed</string>
+    <string name="game_list_memory">memory</string>
+    <string name="game_list_flexibility">flexibility</string>
+    <string name="game_list_attention">attention</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_play">Play</string>
+    <string name="title_activity_games_grid_view">games</string>
+    <string name="title_activity_game_help">GameHelp</string>
+
+</resources>

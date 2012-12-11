@@ -1,0 +1,48 @@
+﻿<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/main_bkground">
+    <LinearLayout android:id="@+id/layout1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:visibility="visible">
+        <LinearLayout android:orientation="vertical" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content" 
+	        android:layout_marginTop="200.0dip" >
+			<ListView android:id="@+id/gameList1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"/>
+    	</LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/layout2"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:visibility="invisible"
+        android:orientation="horizontal">
+        <RelativeLayout android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="100dip"
+            android:layout_weight="3">
+            <ListView android:id="@+id/gameList2"
+                android:layout_centerVertical="true"
+                 android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="1">
+            <RelativeLayout android:id="@+id/detailGroup"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dip"
+            android:layout_width="fill_parent">
+	            <ListView android:id="@+id/detailList"
+	                android:layout_height="fill_parent"
+	                android:layout_width="fill_parent"/>
+        	</RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    
+</LinearLayout>
