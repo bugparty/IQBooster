@@ -103,10 +103,7 @@ public class MenuPage extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				if(Constant.shelView != null){
-					Constant.shelView.getShelf();
-			        System.out.println("当前积分:" + Constant.shelView.getScore() + "");
-				}
+				// Ad SDK code removed
 			}
 		});
     }

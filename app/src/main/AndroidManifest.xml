@@ -15,14 +15,6 @@
         <uses-library android:name="org.apache.http.legacy" android:required="false" />
 
         <activity
-            android:name="cn.appmedia.adshelf.activity.ApkList"
-            android:screenOrientation="portrait" >
-        </activity>
-
-        <service android:name="ccn.appmedia.adshelf.download.DownLoadService" >
-        </service>
-
-        <activity
             android:name=".Register"
             android:label="@string/title_activity_register"
             android:screenOrientation="portrait" >

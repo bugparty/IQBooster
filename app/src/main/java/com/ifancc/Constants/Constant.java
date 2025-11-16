@@ -7,8 +7,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 
-import cn.appmedia.adshelf.ShelfView;
-
 import com.ifancc.braingame.R;
 
 public class Constant {
@@ -19,9 +17,7 @@ public class Constant {
 	public static final String REGISTER_URL = "http://braingame.sinaapp.com/api/register";
 	public static final String LOGIN_URL = "http://braingame.sinaapp.com/api/login";
 	public static final String ENCODING 		= "UTF-8";
-	
-	public static ShelfView shelView;
-	
+
 	/*
 	 * 记录actiity
 	 */

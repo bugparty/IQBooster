@@ -31,8 +31,6 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import cn.appmedia.adshelf.AdshelfManager;
-import cn.appmedia.adshelf.ShelfView;
 
 /**
  * 登录界面
@@ -40,11 +38,7 @@ import cn.appmedia.adshelf.ShelfView;
  *
  */
 public class Login extends Activity {
-	private static final String AID = "cab1048b6726e8fa";
-	static{
-		AdshelfManager.setAid(AID);
-	}
-	
+
 	private EditText loginUserName;
 	private EditText loginPassword;
 	private LinearLayout root;
@@ -69,10 +63,9 @@ public class Login extends Activity {
         display.getMetrics(dm);
         Constant.initConst(this,dm.widthPixels, dm.heightPixels);
         Constant.al.add(this);
-        
+
         initThread.start();
-        adThread.start();
-        
+
         if(Constant.loginStatus == 0){
         	 welcomeView = new WelcomeView(Login.this);
              setContentView(welcomeView);
@@ -196,12 +189,6 @@ public class Login extends Activity {
             	initLoginPage();
            		Constant.loginStatus = 1;
     		}
-    	}
-    };
-    
-    private Thread adThread = new Thread(){
-    	public void run() {
-    		Constant.shelView = new ShelfView(Login.this);
     	}
     };
     
