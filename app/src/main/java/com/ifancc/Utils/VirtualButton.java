@@ -1,4 +1,4 @@
-﻿package com.ifancc.Utils;
+package com.ifancc.Utils;
 
 import com.ifancc.braingame.R;
 

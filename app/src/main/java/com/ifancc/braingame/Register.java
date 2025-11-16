@@ -1,4 +1,4 @@
-﻿package com.ifancc.braingame;
+package com.ifancc.braingame;
 
 import java.util.HashMap;
 import java.util.regex.Matcher;

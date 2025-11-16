@@ -1,4 +1,4 @@
-﻿package com.ifancc.GameViews;
+package com.ifancc.GameViews;
 
 import com.ifancc.Constants.UserInfos;
 import com.ifancc.Utils.VirtualButton;

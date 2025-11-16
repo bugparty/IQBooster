@@ -1,4 +1,4 @@
-﻿package com.ifancc.braingame;
+package com.ifancc.braingame;
 
 import com.ifancc.GameViews.BrainShiftView;
 import com.ifancc.GameViews.ColorMatchView;

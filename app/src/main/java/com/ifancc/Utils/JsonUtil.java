@@ -1,4 +1,4 @@
-﻿package com.ifancc.Utils;
+package com.ifancc.Utils;
 
 import java.io.StringReader;
 import java.lang.reflect.Type;

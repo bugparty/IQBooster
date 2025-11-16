@@ -1,4 +1,4 @@
-﻿package com.ifancc.Constants;
+package com.ifancc.Constants;
 import java.util.ArrayList;
 import java.util.List;
 

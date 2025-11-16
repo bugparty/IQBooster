@@ -1,4 +1,4 @@
-﻿package com.ifancc.GameViews;
+package com.ifancc.GameViews;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

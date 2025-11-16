@@ -1,4 +1,4 @@
-﻿package com.ifancc.Constants;
+package com.ifancc.Constants;
 /**
  * 
  * @author liyang

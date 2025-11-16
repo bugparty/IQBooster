@@ -1,4 +1,4 @@
-﻿package com.ifancc.braingame;
+package com.ifancc.braingame;
 
 import android.content.Context;
 import android.graphics.Camera;

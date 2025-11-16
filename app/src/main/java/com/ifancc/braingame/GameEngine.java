@@ -1,4 +1,4 @@
-﻿package com.ifancc.braingame;
+package com.ifancc.braingame;
 
 import android.app.Activity;
 import android.view.View;

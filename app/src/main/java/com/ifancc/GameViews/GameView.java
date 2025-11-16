@@ -1,4 +1,4 @@
-﻿package com.ifancc.GameViews;
+package com.ifancc.GameViews;
 import com.ifancc.Constants.Constant;
 
 import android.content.Context;

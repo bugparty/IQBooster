@@ -1,4 +1,4 @@
-﻿package com.ifancc.models;
+package com.ifancc.models;
 
 
 public class ReturnMessage {
