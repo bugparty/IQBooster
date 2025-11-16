@@ -23,8 +23,6 @@
             android:name=".Register"
             android:label="@string/title_activity_register"
             android:screenOrientation="portrait" >
-            <intent-filter>
-            </intent-filter>
         </activity>
         <activity
             android:name=".Login"
@@ -40,57 +38,41 @@
             android:name=".MenuPage"
             android:label="@string/title_activity_menu_page"
             android:screenOrientation="portrait" >
-            <intent-filter>
-            </intent-filter>
         </activity>
         <activity
             android:name=".GameList"
             android:label="@string/title_activity_game_list"
             android:screenOrientation="portrait" >
-            <intent-filter>
-            </intent-filter>
         </activity>
         <activity
             android:name=".GamesGridView"
             android:label="@string/title_activity_games_grid_view"
             android:screenOrientation="landscape" >
-            <intent-filter>
-            </intent-filter>
         </activity>
         <activity
             android:name=".DataAnalyse"
             android:label="@string/title_activity_analyse"
             android:screenOrientation="landscape" >
-            <intent-filter>
-            </intent-filter>
         </activity>
         <activity
             android:name=".Train"
             android:label="@string/title_activity_train"
             android:screenOrientation="landscape" >
-            <intent-filter>
-            </intent-filter>
         </activity>
         <activity
             android:name=".Play"
             android:label="@string/title_activity_train"
             android:screenOrientation="landscape" >
-            <intent-filter>
-            </intent-filter>
         </activity>
         <activity
             android:name=".com.ifancc.braingame.Play"
             android:label="@string/title_activity_play"
             android:screenOrientation="landscape" >
-            <intent-filter>
-            </intent-filter>
         </activity>
         <activity
             android:name=".GameHelp"
             android:label="@string/title_activity_game_help"
             android:screenOrientation="portrait" >
-            <intent-filter>
-            </intent-filter>
         </activity>
     </application>
 
