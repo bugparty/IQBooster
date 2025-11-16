@@ -87,6 +87,3 @@ lint-results_files/
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# Gradle Wrapper jar (we'll let GitHub Actions download it)
-gradle/wrapper/gradle-wrapper.jar
